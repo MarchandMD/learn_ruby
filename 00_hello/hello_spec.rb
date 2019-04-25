@@ -116,3 +116,8 @@ describe "the greet function" do
     expect(greet("Bob")).to eq("Hello, Bob!")
   end
 end
+
+describe "the to_roman function" do
+    it "converts single digit to roman numeral"
+    expect(to_roman(1)).to eq("I")
+end
